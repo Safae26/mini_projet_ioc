@@ -197,13 +197,13 @@ Ce projet m'a permis de développer les compétences suivantes :
   @Autowired
   private IDao dao; // Peut être DaoImpl ou DaoImpl2
   ```
-```
+
 graph TD
     A[Modification requise] --> B{Changement d'implémentation?}
     B -->|DAO| C[Modifier uniquement la couche dao]
     B -->|Métier| D[Adapter la couche metier]
     C & D --> E[Fonctionnement inchangé des autres composants]
-```
+
     
 ## Conclusion:
 
