@@ -20,7 +20,9 @@ Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de d�
 ## 🏗️ Architecture du projet:
 <img width="275" alt="structure" src="https://github.com/user-attachments/assets/b66cd1ae-c612-46a7-acf5-1cae5491ec22" />
 
-## Configuration du fichier pom.xml :
+## ⚙️ Configuration
+### Fichier `pom.xml`
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -129,7 +131,7 @@ Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de d�
         </plugins>
     </build>
 </project>
-
+```
 ### 📁 Package dao : couche d'accès aux taux de conversion
 Ce package contient :
 - Interface IDao: Définit une méthode getTauxConversion(String from, String to) qui retourne le taux de conversion entre deux unités de température
