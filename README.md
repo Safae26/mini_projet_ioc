@@ -178,9 +178,11 @@ Ce package contient :
 ### 🖥 Résultats
 Lorsque l’on exécute la classe de présentation, le programme affiche le résultat de la conversion.
 - Avec Annotations :
+  
   <img width="548" alt="Annot" src="https://github.com/user-attachments/assets/c832868e-1479-4603-bed2-5dedf33c3521" />
 
 - Avec XML :
+  
   <img width="544" alt="xmll" src="https://github.com/user-attachments/assets/474a09c4-d531-4433-b418-c61fd2f1a329" />
 
 ## 📚 Acquis pédagogiques
