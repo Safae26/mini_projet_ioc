@@ -185,4 +185,4 @@ Ce mini projet m'a permis de:
 - Faciliter le changement d'implémentation
 
 ## Auteur :
-Anejjar Wiame
+Safae ERAJI
