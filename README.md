@@ -198,15 +198,36 @@ Ce projet m'a permis de développer les compétences suivantes :
   private IDao dao; // Peut être DaoImpl ou DaoImpl2
   ```
 
+## 🔄 Diagramme d'Évolutivité
+
+```mermaid
 graph TD
-    A[Modification requise] --> B{Changement d'implémentation?}
-    B -->|DAO| C[Modifier uniquement la couche dao]
-    B -->|Métier| D[Adapter la couche metier]
-    C & D --> E[Fonctionnement inchangé des autres composants]
+    A[Modification Requise] --> B{Type de Changement?}
+    B -->|DAO| C[📦 Couche dao seulement]
+    B -->|Métier| D[🛠️ Couche metier seulement]
+    C --> E[✅ Autres couches inchangées]
+    D --> E
+    E --> F[🏁 Application fonctionnelle]
+    
+    style A fill:#f9f,stroke:#333
+    style B fill:#bbf,stroke:#333
+    style C fill:#6f6,stroke:#333
+    style D fill:#6f6,stroke:#333
+    style E fill:#4af,stroke:#333
+    style F fill:#8f8,stroke:#333
 
     
 ## Conclusion:
+Ce projet de convertisseur de températures a été une excellente opportunité pour :
 
+### 🛠️ Renforcement des compétences techniques
+- **Maîtrise approfondie** des principes IoC/DI de Spring
+- **Implémentation concrète** des différents types d'injection :
+  ```java
+  // Injection par constructeur
+  public MetierImpl(IDao dao) {
+      this.dao = dao;
+  }
 
 ## Auteur :
 **Safae ERAJI**  
