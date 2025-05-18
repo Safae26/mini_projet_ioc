@@ -5,19 +5,19 @@
 
 Un projet démonstratif des principes **IoC (Inversion of Control)** et **DI (Dependency Injection)** avec Spring Framework.
 
-## 📖 Introduction
+## Introduction
 Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de dépendances avec Spring en créant une petite application de conversion de températures entre différentes unités (Celsius (°C), Fahrenheit (°F), Kelvin (K)).
 
 **Objectifs pédagogiques** :
-- ✅ Implémentation de l'IoC (Inversion of Control)
-- ✅ Trois méthodes d'injection de dépendances :
+- Implémentation de l'IoC (Inversion of Control)
+- Trois méthodes d'injection de dépendances :
   - Par attribut
   - Par constructeur
   - Par setter
-- ✅ Comparaison **XML** vs **Annotations**
-- ✅ Architecture en couches (DAO/Métier/Présentation)
+- Comparaison **XML** vs **Annotations**
+- Architecture en couches (DAO/Métier/Présentation)
 
-## 🏗️ Architecture du projet:
+## Architecture du projet:
 <img width="275" alt="structure" src="https://github.com/user-attachments/assets/b66cd1ae-c612-46a7-acf5-1cae5491ec22" />
 
 ## ⚙️ Configuration
@@ -139,7 +139,7 @@ Lorsque l’on exécute la classe de présentation, le programme affiche le rés
 
 Ce projet m'a permis de développer les compétences suivantes :
 
-### 🧠 Compréhension approfondie
+### Compréhension approfondie
 - **Injection de dépendances** :  
   Mécanisme d'injection dynamique  
   Souplesse architecturale avec Spring  
@@ -176,6 +176,7 @@ Ce projet de convertisseur de températures a été une excellente opportunité 
 ### 🛠️ Renforcement des compétences techniques
 - **Maîtrise approfondie** des principes IoC/DI de Spring
 - **Implémentation concrète** des différents types d'injection :
+  
   ```java
   // Injection par constructeur
   public MetierImpl(IDao dao) {
