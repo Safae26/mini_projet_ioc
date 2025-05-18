@@ -133,7 +133,7 @@ Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de d�
 </project>
 ```
 ## 📦 Structure des packages
-### 📁 Package dao : couche d'accès aux taux de conversion
+### 📁 Package dao (couche données) : couche d'accès aux taux de conversion
 Ce package contient :
 - Interface IDao: Définit une méthode getTauxConversion(String from, String to) qui retourne le taux de conversion entre deux unités de température
   
@@ -175,7 +175,7 @@ Ce package contient :
 ### 📄 config.xml
 <img width="596" alt="config" src="https://github.com/user-attachments/assets/60396d67-bba5-4d43-a150-e4a4670df3e4" />
 
-### Résultats
+### 🖥 Résultats
 Lorsque l’on exécute la classe de présentation, le programme affiche le résultat de la conversion.
 - Avec Annotations :
   <img width="548" alt="Annot" src="https://github.com/user-attachments/assets/c832868e-1479-4603-bed2-5dedf33c3521" />
@@ -191,4 +191,4 @@ Ce mini projet m'a permis de:
 - Faciliter le changement d'implémentation
 
 ## Auteur :
-Safae ERAJI
+**Safae ERAJI**  
