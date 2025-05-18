@@ -2,12 +2,12 @@
 
 Un projet démonstratif des principes IoC et DI avec Spring Framework
 
-## 🔰 Introduction
-Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de dépendances avec Spring en créant une application de conversion de températures entre différentes unités (Celsius (°C), Fahrenheit (°F), Kelvin (K)).
+## Introduction
+Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de dépendances avec Spring en créant une petite application de conversion de températures entre différentes unités (Celsius (°C), Fahrenheit (°F), Kelvin (K)).
 
 **Objectifs pédagogiques** :
 - ✅ Implémentation de l'IoC (Inversion of Control)
-- ✅ Trois méthodes d'injection de dépendances
+- ✅ Trois méthodes d'injection de dépendances (Attribut, constructeur, setter)
 - ✅ Comparaison XML vs Annotations
 - ✅ Architecture en couches (DAO/Métier/Présentation)
 
@@ -125,6 +125,7 @@ Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de d�
 </project>
 
 ### 📁 Package dao : couche d'accès aux taux de conversion
+Ce package contient :
 - Interface IDao: Définit une méthode getTauxConversion(String from, String to) qui retourne le taux de conversion entre deux unités de température
   
   <img width="620" alt="IDao" src="https://github.com/user-attachments/assets/c9426bd4-fa87-4b30-a56a-176dceda1c46" />
@@ -136,8 +137,8 @@ Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de d�
   <img width="731" alt="DaoImpl" src="https://github.com/user-attachments/assets/0d1e3866-5353-4534-81d4-0c4fd3edd35a" />
 
 
-### 📁 Package ext : alternative DAO
-- DaoImpl2: Deuxième implémentation avec des taux légèrement différents pour démontrer l'injection dynamique
+### 📁 Package ext : alternative/deuxième version DAO
+- DaoImpl2: Deuxième implémentation de l’interface IDao avec des taux légèrement différents pour démontrer l'injection dynamique
   <img width="734" alt="DaoImpl2" src="https://github.com/user-attachments/assets/5fff192a-0557-4b0f-a483-62c0450685a1" />
 
 
@@ -164,8 +165,11 @@ Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de d�
 <img width="596" alt="config" src="https://github.com/user-attachments/assets/60396d67-bba5-4d43-a150-e4a4670df3e4" />
 
 ## Conclusion:
-Ce projet m'a permis de:
-- Comprendre l'injection de dépendances
+Ce mini projet m'a permis de:
+- Comprendre l'injection de dépendances, surtout l'injection dynamique et la souplesse et l'évolutivité de Spring, car on peut passer d’un DAO à un autre sans modifier le code métier (application fermee a la modification et ouverte a l'extension).
 - Comparer XML vs annotations
 - Séparer clairement les couches
 - Faciliter le changement d'implémentation
+
+## Auteur :
+Anejjar Wiame
