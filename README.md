@@ -1,7 +1,5 @@
 # 🌡️ Mini-projet Spring - Convertisseur de Températures
 
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring)
-
 Un projet démonstratif des principes IoC et DI avec Spring Framework
 
 ## 🔰 Introduction
