@@ -5,7 +5,7 @@
 
 Un projet démonstratif des principes **IoC (Inversion of Control)** et **DI (Dependency Injection)** avec Spring Framework.
 
-## Introduction
+## 📖 Introduction
 Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de dépendances avec Spring en créant une petite application de conversion de températures entre différentes unités (Celsius (°C), Fahrenheit (°F), Kelvin (K)).
 
 **Objectifs pédagogiques** :
