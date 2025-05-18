@@ -183,12 +183,28 @@ Lorsque l’on exécute la classe de présentation, le programme affiche le rés
 - Avec XML :
   <img width="544" alt="xmll" src="https://github.com/user-attachments/assets/474a09c4-d531-4433-b418-c61fd2f1a329" />
 
+## 📚 Acquis pédagogiques
+
+Ce projet m'a permis de développer les compétences suivantes :
+
+### 🧠 Compréhension approfondie
+- **Injection de dépendances** :  
+  🔄 Mécanisme d'injection dynamique  
+  🏗️ Souplesse architecturale avec Spring  
+  ✨ Application du principe **OCP** (Open/Closed Principle) :
+  ```java
+  // Exemple : Changement de DAO sans modifier le code métier
+  @Autowired
+  private IDao dao; // Peut être DaoImpl ou DaoImpl2
+
+graph TD
+    A[Modification requise] --> B{Changement d'implémentation?}
+    B -->|DAO| C[Modifier uniquement la couche dao]
+    B -->|Métier| D[Adapter la couche metier]
+    C & D --> E[Fonctionnement inchangé des autres composants]
+    
 ## Conclusion:
-Ce mini projet m'a permis de:
-- Comprendre l'injection de dépendances, surtout l'injection dynamique et la souplesse et l'évolutivité de Spring, car on peut passer d’un DAO à un autre sans modifier le code métier (application fermee a la modification et ouverte a l'extension).
-- Comparer XML vs annotations
-- Séparer clairement les couches
-- Faciliter le changement d'implémentation
+
 
 ## Auteur :
 **Safae ERAJI**  
