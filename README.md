@@ -10,8 +10,11 @@ Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de d�
 
 **Objectifs pédagogiques** :
 - ✅ Implémentation de l'IoC (Inversion of Control)
-- ✅ Trois méthodes d'injection de dépendances (Attribut, constructeur, setter)
-- ✅ Comparaison XML vs Annotations
+- ✅ Trois méthodes d'injection de dépendances :
+  - Par attribut
+  - Par constructeur
+  - Par setter
+- ✅ Comparaison **XML** vs **Annotations**
 - ✅ Architecture en couches (DAO/Métier/Présentation)
 
 ## 🧱 Architecture du projet:
