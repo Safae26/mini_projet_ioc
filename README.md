@@ -160,14 +160,7 @@ Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de d�
 
 
 ### 📄 config.xml
-<beans>
-    <bean id="dao" class="com.example.temperature.dao.DaoImpl"/>
-    <bean id="metier" class="com.example.temperature.metier.MetierImpl">
-        <property name="dao" ref="dao"/>
-    </bean>
-</beans>
-<img width="662" alt="config" src="https://github.com/user-attachments/assets/4d104b8d-6297-49ed-bf28-8a95202668e3" />
-
+<img width="596" alt="config" src="https://github.com/user-attachments/assets/60396d67-bba5-4d43-a150-e4a4670df3e4" />
 
 ## Conclusion:
 Ce projet m'a permis de:
