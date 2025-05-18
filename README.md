@@ -143,6 +143,7 @@ Ce package contient :
 
 
 ### 📁 Package metier : couche métier
+Ce package contient :
 - Interface IMetier: Définit une méthode convertir(String from, String to, double valeur)
   <img width="732" alt="IMetier" src="https://github.com/user-attachments/assets/cad52a90-9046-4e62-a98b-0f85cc492977" />
 
@@ -154,15 +155,24 @@ Ce package contient :
 
 
 ### 📁 Package pres : couche de présentation
-- PresSpringAnnotation: Utilise AnnotationConfigApplicationContext pour configurer Spring via annotations
+Ce package contient :
+- PresSpringAnnotation: Utilise AnnotationConfigApplicationContext pour configurer Spring via annotations qui scanne automatiquement le package 'net.safae' pour détecter les composants Spring (@Component, etc.) et configure l'injection automatique des dépendances.
   <img width="701" alt="Annotation" src="https://github.com/user-attachments/assets/16aef88d-9efa-480f-98c5-2a4a31b2017c" />
 
-- PresSpringXML: Utilise un fichier config.xml pour la configuration XML
+- PresSpringXML: Utilise un fichier config.xml pour la configuration XML (déclarer et injecter manuellement les beans Spring)
   <img width="670" alt="xml" src="https://github.com/user-attachments/assets/e24f68a3-7fd6-4347-9e77-35e31adfb503" />
 
 
 ### 📄 config.xml
 <img width="596" alt="config" src="https://github.com/user-attachments/assets/60396d67-bba5-4d43-a150-e4a4670df3e4" />
+
+### Résultats
+Lorsque l’on exécute la classe de présentation, le programme affiche le résultat de la conversion.
+- Avec Annotations :
+  <img width="548" alt="Annot" src="https://github.com/user-attachments/assets/c832868e-1479-4603-bed2-5dedf33c3521" />
+
+- Avec XML :
+  <img width="544" alt="xmll" src="https://github.com/user-attachments/assets/474a09c4-d531-4433-b418-c61fd2f1a329" />
 
 ## Conclusion:
 Ce mini projet m'a permis de:
