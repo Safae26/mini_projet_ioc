@@ -84,12 +84,13 @@ Ce package contient :
     - Celsius → Fahrenheit: ×1.8 + 32
     - Fahrenheit → Celsius: -32 ×5/9
     - Celsius → Kelvin: +273.15
+      
   <img width="731" alt="DaoImpl" src="https://github.com/user-attachments/assets/0d1e3866-5353-4534-81d4-0c4fd3edd35a" />
 
 
 ### 📁 Package ext : alternative/deuxième version DAO
 - DaoImpl2: Deuxième implémentation de l’interface IDao avec des taux légèrement différents pour démontrer l'injection dynamique
-- 
+  
   <img width="734" alt="DaoImpl2" src="https://github.com/user-attachments/assets/5fff192a-0557-4b0f-a483-62c0450685a1" />
 
 
@@ -103,6 +104,7 @@ Ce package contient :
     - Injection par constructeur
     - Injection par setter
     - Injection par annotation @Autowired
+
       
   <img width="698" alt="MetierImpl" src="https://github.com/user-attachments/assets/038b6820-f96e-48a8-bf17-a1758818ad4e" />
 
