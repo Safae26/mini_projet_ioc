@@ -17,7 +17,7 @@ Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de d�
 - ✅ Comparaison **XML** vs **Annotations**
 - ✅ Architecture en couches (DAO/Métier/Présentation)
 
-## 🧱 Architecture du projet:
+## 🏗️ Architecture du projet:
 <img width="275" alt="structure" src="https://github.com/user-attachments/assets/b66cd1ae-c612-46a7-acf5-1cae5491ec22" />
 
 ## Configuration du fichier pom.xml :
