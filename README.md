@@ -89,18 +89,21 @@ Ce package contient :
 
 ### 📁 Package ext : alternative/deuxième version DAO
 - DaoImpl2: Deuxième implémentation de l’interface IDao avec des taux légèrement différents pour démontrer l'injection dynamique
+- 
   <img width="734" alt="DaoImpl2" src="https://github.com/user-attachments/assets/5fff192a-0557-4b0f-a483-62c0450685a1" />
 
 
 ### 📁 Package metier : couche métier
 Ce package contient :
 - Interface IMetier: Définit une méthode convertir(String from, String to, double valeur)
+  
   <img width="732" alt="IMetier" src="https://github.com/user-attachments/assets/cad52a90-9046-4e62-a98b-0f85cc492977" />
 
 - Classe MetierImpl: Implémentation avec trois types d'injection:
     - Injection par constructeur
     - Injection par setter
     - Injection par annotation @Autowired
+      
   <img width="698" alt="MetierImpl" src="https://github.com/user-attachments/assets/038b6820-f96e-48a8-bf17-a1758818ad4e" />
 
 
