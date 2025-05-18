@@ -15,11 +15,7 @@ Un projet démonstratif des principes IoC et DI avec Spring Framework
 - [Auteur](#-auteur)
 
 ## 🔰 Introduction
-
-Ce mini-projet illustre les concepts fondamentaux de Spring à travers un convertisseur de températures prenant en charge :
-- Celsius (°C)
-- Fahrenheit (°F) 
-- Kelvin (K)
+Ce mini-projet a pour but de découvrir les principes d'IoC et d'injection de dépendances avec Spring en créant une application de conversion de températures entre différentes unités (Celsius (°C), Fahrenheit (°F), Kelvin (K)).
 
 **Objectifs pédagogiques** :
 - ✅ Implémentation de l'IoC (Inversion of Control)
