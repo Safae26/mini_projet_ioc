@@ -215,7 +215,7 @@ graph TD
     style D fill:#6f6,stroke:#333
     style E fill:#4af,stroke:#333
     style F fill:#8f8,stroke:#333
-
+```
     
 ## Conclusion:
 Ce projet de convertisseur de températures a été une excellente opportunité pour :
