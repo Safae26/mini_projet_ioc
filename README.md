@@ -2,7 +2,6 @@
 
 [![Spring](https://img.shields.io/badge/Spring-6.1.5-green.svg)](https://spring.io/)
 [![Java](https://img.shields.io/badge/Java-11-blue.svg)](https://www.java.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Un projet démonstratif des principes **IoC (Inversion of Control)** et **DI (Dependency Injection)** avec Spring Framework.
 
