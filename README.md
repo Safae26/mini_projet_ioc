@@ -84,6 +84,7 @@ Ce package contient :
     - Celsius → Fahrenheit: ×1.8 + 32
     - Fahrenheit → Celsius: -32 ×5/9
     - Celsius → Kelvin: +273.15
+
       
   <img width="731" alt="DaoImpl" src="https://github.com/user-attachments/assets/0d1e3866-5353-4534-81d4-0c4fd3edd35a" />
 
@@ -105,7 +106,8 @@ Ce package contient :
     - Injection par setter
     - Injection par annotation @Autowired
 
-      
+
+
   <img width="698" alt="MetierImpl" src="https://github.com/user-attachments/assets/038b6820-f96e-48a8-bf17-a1758818ad4e" />
 
 
@@ -139,9 +141,10 @@ Ce projet m'a permis de développer les compétences suivantes :
 
 ### 🧠 Compréhension approfondie
 - **Injection de dépendances** :  
-  🔄 Mécanisme d'injection dynamique  
-  🏗️ Souplesse architecturale avec Spring  
-  ✨ Application du principe **OCP** (Open/Closed Principle) :
+  Mécanisme d'injection dynamique  
+  Souplesse architecturale avec Spring  
+  Application du principe **OCP** (Open/Closed Principle) :
+  
   ```java
   // Exemple : Changement de DAO sans modifier le code métier
   @Autowired
