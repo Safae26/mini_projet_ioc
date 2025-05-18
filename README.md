@@ -112,9 +112,11 @@ Ce package contient :
 ### 📁 Package pres : couche de présentation
 Ce package contient :
 - PresSpringAnnotation: Utilise AnnotationConfigApplicationContext pour configurer Spring via annotations qui scanne automatiquement le package 'net.safae' pour détecter les composants Spring (@Component, etc.) et configure l'injection automatique des dépendances.
+  
   <img width="701" alt="Annotation" src="https://github.com/user-attachments/assets/16aef88d-9efa-480f-98c5-2a4a31b2017c" />
 
 - PresSpringXML: Utilise un fichier config.xml pour la configuration XML (déclarer et injecter manuellement les beans Spring)
+  
   <img width="670" alt="xml" src="https://github.com/user-attachments/assets/e24f68a3-7fd6-4347-9e77-35e31adfb503" />
 
 
