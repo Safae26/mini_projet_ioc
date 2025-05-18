@@ -1,7 +1,7 @@
 # 🌡️ Mini-projet Spring - Convertisseur de Températures
 
-[![Spring](https://img.shields.io/badge/Spring-6.1.5-green.svg)](https://spring.io/)
-[![Java](https://img.shields.io/badge/Java-11-blue.svg)](https://www.java.com/)
+[![Spring](https://img.shields.io/badge/Spring-green.svg)](https://spring.io/)
+[![Java](https://img.shields.io/badge/Java-blue.svg)](https://www.java.com/)
 
 Un projet démonstratif des principes **IoC (Inversion of Control)** et **DI (Dependency Injection)** avec Spring Framework.
 
